@@ -1,0 +1,87 @@
+.main-header{
+  .top-header{
+    padding: 10px;
+    background: #1E2436;
+    .top-header-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .top-contact{
+        span{
+          margin-left: 30px;
+          color: #fff;
+          i{
+            margin: 0 5px;
+          }
+        }
+      }
+      
+      .top-social{
+        a{
+          display: inline-flex;
+          margin: 0 5px;
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+.main-nav{
+  .navbar-brand{
+    height: auto;
+  }
+  
+  .nav.navbar-nav{
+    margin-top: 35px;
+    li{
+      a{
+        font-size: 16px;
+        color: #222;
+        &.btn-success{
+          margin-top: 8px;
+          .no-border;
+          outline: none;
+          background: @green;
+          .border-radius(50%);
+          width: 35px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.open>.dropdown-menu {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+
+  .dropdown-menu {
+    opacity: .3;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1, 0);
+    display: block;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+  }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background: transparent;
+}
