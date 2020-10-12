@@ -14628,18 +14628,17 @@ body {
 /*# sourceMappingURL=style2.css.map */
 
 
-
 .search-box{
   position: absolute;
   bottom: -100px;
-  /* right: 100px;/\ */
+  left: 40px;
   z-index: 99;
   border: 1px solid #EEE;
   padding: 10px;
   background-color: #fff;
   border-radius: 10px;
   display: none;
-  width: 60%;
+  width: 30%;
   transition: all .5s ease-in-out;
 }
 
@@ -14671,6 +14670,7 @@ input{
     text-align: right ;
     bottom: -110px;
     width: 70%;
+    right: 40px;
   }
 }
 
@@ -14679,5 +14679,7 @@ input{
     text-align: right ;
     bottom: -110px;
     width: 90%;
+    right: 20px;
+
   }
 }
