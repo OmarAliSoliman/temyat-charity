@@ -14626,3 +14626,58 @@ body {
 }
 
 /*# sourceMappingURL=style2.css.map */
+
+
+
+.search-box{
+  position: absolute;
+  bottom: -100px;
+  /* right: 100px;/\ */
+  z-index: 99;
+  border: 1px solid #EEE;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: none;
+  width: 60%;
+  transition: all .5s ease-in-out;
+}
+
+.search-box   .cansel{
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.search-box 
+input{
+  border: 1px solid #EEE;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search-box   button{
+  width: 40% !important;
+  margin-top: 10px;
+  padding: 5px;
+  color: #fff;
+  background-color: #06aebf;
+}
+
+@media(max-width: 800px){
+  .search-box{
+    text-align: right ;
+    bottom: -110px;
+    width: 70%;
+  }
+}
+
+@media(max-width: 524px){
+  .search-box{
+    text-align: right ;
+    bottom: -110px;
+    width: 90%;
+  }
+}

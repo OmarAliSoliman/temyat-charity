@@ -178,3 +178,23 @@ $(document).ready(function () {
     zIndex: 1001 // Z-Index for the overlay
   });
 });
+
+
+// $(document).ready(function(){
+//   $('#search').on('click', function(e){
+//     e.preventDefault();
+//     $(".search-box").toggle('fast');
+//   })
+// })
+
+var searchButton = document.querySelector("#search");
+var closeButton = document.querySelector("#close");
+var searchBox = document.querySelector(".search-box");
+searchButton.addEventListener('click', (e)=>{
+  e.preventDefault();
+  searchBox.style.display="block";
+})
+
+closeButton.addEventListener('click', ()=>{
+  searchBox.style.display="none";
+})
